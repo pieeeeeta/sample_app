@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'practices/index'
+
   root 'static_pages#home'
   get 'static_pages/home'
   get 'static_pages/help'
